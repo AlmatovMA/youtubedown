@@ -9,6 +9,7 @@ async def bot_help(message: types.Message):
     text = ("нужна помошь?",
             "команды: ",
             "/start - запуск бота!",
-            "/help - помошь!")
+            "/help - помошь!",
+            "/audio - это команда для скачивания видео и отправка вам аудио сообщением")
     
     await message.answer("\n".join(text))
